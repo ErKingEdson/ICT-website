@@ -1,20 +1,31 @@
+
+
+
 .header {
-  border: 1px solid blue;
-  display: flex;
+  border: 1px solid red;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  padding: 30px;
+  background: black;
 }
 
 .logo{
-  border: 1px solid blue;
+  border: 1px solid red;
 }
 
 .menu{
-  border: 1px solid blue;
+  border: 1px solid red;
+    width: 100%;  
 }
 
+.menu li{display: inline-block}
+.menu li a{color: white}
 
-.contact{
-  border: 1px solid blue;
-}
+
+
+
 
 
 
