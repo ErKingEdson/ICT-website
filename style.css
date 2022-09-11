@@ -1,8 +1,14 @@
+/* ! base style */
+body{font-family: 'Inter', sans-serif;}
+
+a{text-decoration: none;}
 
 
 
+
+/* ! header */
 .header {
-  border: 1px solid red;
+  border: 1px solid black;
   width: 100%;
   position: fixed;
   top:0;
@@ -12,11 +18,11 @@
 }
 
 .logo{
-  border: 1px solid red;
+  border: 1px solid black;
 }
 
 .menu{
-  border: 1px solid red;
+  border: 1px solid black;
     width: 100%;  
 }
 
@@ -24,7 +30,18 @@
 .menu li a{color: white}
 
 
+.cta{
+  border: 1px solid black;
+    width: 100%;  
+}
+.cta li{display: inline-block}
+.cta li a{color: white}
 
+.button{padding: 18px 28px ;
+       background: #316bff;
+       color:white;
+       display: inline-block;
+       border-radius}
 
 
 
